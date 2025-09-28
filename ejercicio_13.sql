@@ -1,0 +1,8 @@
+--EJERCICIO 13, SUBIDO MÁS TARDE
+
+CREATE FUNCTION
+  keepcoding.clean_entero(x INT64)
+RETURNS INT64
+AS (
+  IF( x IS NULL, -99999, x)
+);
